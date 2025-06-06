@@ -3,7 +3,7 @@ import FeedbackList from "./components/FeedbackList";
 import EditFeedbackModal from "./components/EditFeedbackModal";
 import { useFeedbackStore } from "./store";
 import { useState, useEffect } from "react";
-import type { FeedbackItem, FeedbackCategory } from "./types/feedbackTypes";
+import type { FeedbackCategory } from "./types/feedbackTypes";
 import "./App.css";
 
 function App() {

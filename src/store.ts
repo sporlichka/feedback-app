@@ -20,7 +20,7 @@ interface FeedbackState {
 export const useFeedbackStore = create<FeedbackState>()(
   devtools(
     persist(
-      (set, get) => ({
+      (set) => ({
         feedbacks: [],
         categories: ["UI", "Performance", "Feature"],
         theme: "light",
